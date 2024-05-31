@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 80px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0295A9;
+  padding: 0 80px;
+}
+.navbar .navbar__p {
+  display: flex;
+  gap: 100px;
+  color: #04162F;
+}
+.navbar .navbar__p P {
+  font-size: 24px;
+  font-family: sans-serif;
+}
+.navbar .navbar__btn {
+  background: #036370;
+  width: 130px;
+  height: 38px;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+}
+
+/*# sourceMappingURL=main.css.map */
