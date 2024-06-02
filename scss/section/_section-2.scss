@@ -1,0 +1,28 @@
+.section-2{
+    padding: 50px 80px;
+    .section-2__item{
+        text-align: center;
+        P{
+            font-size: 48px;
+            color: #21C1D7;
+        }
+        button{
+            background: #E74C3C;
+            color: #fff;
+            width: 190px;
+            height: 50px;
+            border-radius: 30px;
+            margin-top: 10px;
+        }
+    }
+    .section-2__flex{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin-top: 40px;
+        p{
+            font-size: 25px;
+            margin-top: 15px;
+        }
+    }
+}

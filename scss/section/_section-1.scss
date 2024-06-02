@@ -1,0 +1,28 @@
+.section-1{
+    padding: 0 50px;
+    .section_1__item{
+        text-align: center;
+        .p-1{
+            font-size: 48px;
+
+        }
+        .p-2{
+            color: #989898;
+        }
+    }
+    .section-1__content{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        .section-1__content-item{
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            width: 400px;
+            height: 90px;
+            background: #FFBB12;
+            padding: 15px;
+            border-radius: 50px;
+        }
+    }
+}

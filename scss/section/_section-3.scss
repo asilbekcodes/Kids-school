@@ -1,0 +1,27 @@
+.section-3{
+    padding: 50px 80px;
+    .section-3__p{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .paragraf-1{
+            color: #04162F;
+            font-size: 48px;
+            width: 500px;
+        }
+        .paragraf-2{
+            color: gray;
+            width: 350px;
+        }
+    }
+    .section-3__item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .section-3__item-img{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+}
