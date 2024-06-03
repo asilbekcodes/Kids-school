@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 .container {
@@ -80,7 +81,7 @@
 }
 
 .section-1 {
-  padding: 0 50px;
+  padding: 0 50px 80px 50px;
 }
 .section-1 .section_1__item {
   text-align: center;
@@ -123,7 +124,8 @@
   width: 190px;
   height: 50px;
   border-radius: 30px;
-  margin-top: 10px;
+  margin-top: 30px;
+  border: none;
 }
 .section-2 .section-2__flex {
   display: flex;
@@ -132,12 +134,12 @@
   margin-top: 40px;
 }
 .section-2 .section-2__flex p {
-  font-size: 25px;
+  font-size: 30px;
   margin-top: 15px;
 }
 
 .section-3 {
-  padding: 50px 80px;
+  padding: 80px 80px 50px 80px;
 }
 .section-3 .section-3__p {
   display: flex;
@@ -157,6 +159,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 40px;
 }
 .section-3 .section-3__item .section-3__item-img {
   display: flex;
